@@ -1,0 +1,48 @@
+/*Small Devices, Tablets*/
+@media only screen and (min-width : 1200px) {
+  body {
+      background-image: url(../images/bg-2.jpg);
+  }
+
+  .container {
+      position: relative;
+      overflow: hidden;
+  }
+
+  img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: auto;
+      opacity: 0.5;
+  }
+
+  .linkNA {
+    text-decoration: none;
+    color: black;
+  }
+
+  .linkNA:hover {
+    text-decoration: none;
+    color: rgb(202, 245, 122);
+  }
+
+  .f- {
+    background-color: rgba(11, 153, 51, 0.5);
+  }
+
+  .footer-p {
+    text-align: center;
+  }
+
+  .f- .linkNA {
+    font-weight: bold;
+  }
+
+  .colorNA {
+    color: black;
+    font-weight: bold;
+  }
+
+}
