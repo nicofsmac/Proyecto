@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/bg-2.jpg);
+    background-color: white;
 }
 
 .container {
@@ -42,4 +42,12 @@ img {
 .colorNA {
   color: black;
   font-weight: bold;
+}
+
+.videos {
+  background-color: white;
+}
+
+iframe {
+  padding: 30px;
 }
