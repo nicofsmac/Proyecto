@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="Bootstrap/css/bootstrap-theme.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles-sd.css">
+  <link rel="stylesheet" href="css/styles-md.css">
+  <link rel="stylesheet" href="css/styles-desktop.css">
+  <link rel="stylesheet" href="Bootstrap/js/bootstrap.js">
+  <link rel="stylesheet" href="Bootstrap/js/bootstrap.min.js">
+  <link rel="stylesheet" href="Bootstrap/js/npm.js">
+
+
+  <title>Fútbol Fans</title>
+  <link rel="SHORTCUT ICON" href="images/logoPng.ico" type="image/x-icon" />
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+    <!-- <img src="images/bg-2.jpg" alt="backgorund"> -->
+    <div class="row">
+      <nav role="navigation" class="navbar navbar-inverse">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="#" class="navbar-brand" > Fútbol Fans</a>
+        </div>
+        <!-- Collection of nav links, forms, and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+
+            <li><a href="Proyecto_Int_Home.html">Home</a></li>
+
+
+
+
+
+            <li><a href="Fecha18.html">Fecha 18</a></li>
+
+
+          </ul>
+          <form role="search" class="navbar-form navbar-left">
+            <div class="form-group">
+              <input type="text" placeholder="Buscar" class="form-control">
+            </div>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="Proyecto_Int_Registro.php">Registro</a></li>
+            <li><a href="login.php">Log in</a></li>
+            <li><a href="Proyecto_Int_FAQ.html">Preguntas Frecuentes</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+    $(function(){
+      $('#test').popover();​
+    });
+    </script>
+
+
+
+
+
+
+
+
+
+    <script>
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+    </script>
+    <script>
+    $(document).ready(function(){
+      $('[data-toggle="popover"]').popover()
+    });
+    </script>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <div class="row">
+      <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+  </div>
+</div>
+
+
+
+    <div class="row">
+      <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+        <div class="page-header">
+          <h1>Fecha 19 <small>Campeonato Argentino 2016-17</small></h1>
+        </div>
+        <!-- aca van los videos -->
+        <h3>River Plate VS Quilmes (2-0) </h3>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oGFw7wYjdjw?autoplay=1" controls=2 allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-2 hidden-sm hidden-xs" style="max-height:500px" class="twitter" style="max-height: 10;overflow-y: scroll;">
+        <a class="twitter-timeline" href="https://twitter.com/afa"  data-height="1500">Tweets by afa
+        </a>
+        <script async src="http://platform.twitter.com/widgets.js" charset="utf-8">
+        </script>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+        <h3>Velez VS Boca (1-3) </h3>
+
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fGWx3UVmnQk" controls=2 allowfullscreen>
+          </iframe>
+
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+        <h3>Patronato VS Independiente (0-5)    </h3>
+        <div class="embed-responsive embed-responsive-16by9">
+
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9AQHgqE3Z20" controls=2 allowfullscreen>
+          </iframe>
+
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <div class="container-fluid"
+  <div class="row">
+
+    <h3></h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "http://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <div class="fb-comments" data-href="http://sarasaco.blogspot.com.ar/" data-numposts="10" data-colorscheme="light"></div>
+  </div>
+</div>
+</body>
+</html>
