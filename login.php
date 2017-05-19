@@ -45,7 +45,7 @@ function existeUsuario()
 
 <body>
     <div class="container">
-        <img src="images/bg-2.jpg" alt="backgorund">
+        <img src="images/bg-2.jpg" alt="background">
         <div class="row">
             <nav role="navigation" class="navbar navbar-inverse">
                 <!-- Brand and toggle get grouped for better mobile display -->
