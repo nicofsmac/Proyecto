@@ -10,24 +10,18 @@
     <!-- Bootstrap -->
     <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-<!--
-Aca empieza el resto de links  -->
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
-<link rel="stylesheet" href="Bootstrap/css/bootstrap-theme.css">
-<!-- <link rel="stylesheet" href="css/styles.css">
-<link rel="stylesheet" href="css/styles-sd.css">
-<link rel="stylesheet" href="css/styles-md.css">
-<link rel="stylesheet" href="css/styles-desktop.css"> -->
-<link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Aca empieza el resto de links  --> -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap-theme.css">
+    <!-- <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles-sd.css">
+    <link rel="stylesheet" href="css/styles-md.css">
+    <link rel="stylesheet" href="css/styles-desktop.css"> -->
+    <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -35,65 +29,129 @@ Aca empieza el resto de links  -->
 
 
 
-<title>Fútbol Fans</title>
-<link rel="SHORTCUT ICON" href="images/logoPng.ico" type="image/x-icon" />
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Fútbol Fans</title>
+    <link rel="SHORTCUT ICON" href="images/logoPng.ico" type="image/x-icon" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   </head>
   <body>
     <h1>Hello, world!</h1>
 
 
 
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-      </ol>
 
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img src="http://tv.orange.es/UpImages/2199/futboldestacado_01cae0fd884efc5122826913f.jpg" alt="...">
-          <div class="carousel-caption">
-            ...
-          </div>
-        </div>
-        <div class="item">
-          <img src="http://tv.orange.es/UpImages/2199/futboldestacado_01cae0fd884efc5122826913f.jpg" alt="...">
-          <div class="carousel-caption">
-            ...
-          </div>
-        </div>
-        <div class="item">
-          <img src="http://tv.orange.es/UpImages/2199/futboldestacado_01cae0fd884efc5122826913f.jpg" alt="...">
-          <div class="carousel-caption">
-            ...
-          </div>
-        </div>
-        ...
-      </div>
 
-      <!-- Controls -->
-      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+
+
+
+
+
+    <div id="navbar">
+      <nav class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.php">Fútbol Fans</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+          <ul class="nav navbar-nav">
+
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Fechas <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="fecha20.php">Fecha 20</a></li>
+                <li><a href="fecha19.php">Fecha 19</a></li>
+                <li><a href="fecha18.php">Fecha 18</a></li>
+                <li><a href="fecha17.php">Fecha 17</a></li>
+                <li><a href="fecha16.php">Fecha 16</a></li>
+
+              </ul>
+
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Equipos <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="RiverPlate.php">River Plate</a></li>
+                <li><a href="Boca.php">Boca</a></li>
+                <li><a href="Racing.php">Racing</a></li>
+                <li><a href="Independiente.php">Independiente</a></li>
+                <li><a href="San Lorenzo.php">San Lorenzo</a></li>
+
+              </ul>
+            </li>
+            <form role="search" class="navbar-form navbar-left">
+              <div class="form-group">
+                <input type="text" placeholder="Buscar" class="form-control">
+              </div>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+
+              <li><a href="Proyecto_Int_FAQ.html">FAQ</a></li>
+              <li><a href="Proyecto_Int_Registro.php">Registro</a></li>
+              <li><a href="login.php">Log in</a></li>
+            </ul>
+
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </nav>
     </div>
+
+
+
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+
+
+
+        <div class="bs-example">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Carousel indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for carousel items -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="images/slide1.jpg" alt="First Slide">
+              </div>
+              <div class="item">
+                <img src="images/slide2.jpg" alt="Second Slide">
+              </div>
+              <div class="item">
+                <img src="images/slide3.jpg" alt="Third Slide">
+              </div>
+            </div>
+            <!-- Carousel controls -->
+            <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="carousel-control right" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
