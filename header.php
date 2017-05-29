@@ -45,7 +45,7 @@
 </form>
 <ul class="nav navbar-nav navbar-right">
 
-<li><a href="Proyecto_Int_FAQ.html">FAQ</a></li>
+<li><a href="Proyecto_Int_FAQ.php">FAQ</a></li>
 <li><a href="Proyecto_Int_Registro.php">Registro</a></li>
 <li><a href="login.php">Log in</a></li>
 </ul>
