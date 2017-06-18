@@ -1,10 +1,20 @@
+
+
+
+<!DOCTYPE html>
 <html>
 <head>
+<?php
+include "head.php";
+?>
 </head>
 <body>
-<?php
-require 'clsValidacion.php';
-require 'clsUsuario.php';
+  <div class="container">
+    <?php
+    include "header.php";
+
+require 'registroPOO/clsValidacion.php';
+require 'registroPOO/clsUsuario.php';
 
 if($_POST) {
 
@@ -81,5 +91,10 @@ foreach($errores as $e) {
 <input type="submit" name="enviar" value="enviar">
 
 </form>
+</div>
+<?php
+include "footer.php"
+?>
+
 </body>
 </html>

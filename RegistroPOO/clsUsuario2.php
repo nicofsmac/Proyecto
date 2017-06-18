@@ -16,9 +16,7 @@ class Usuario {
 		$sql = "INSERT INTO usuarios (usuario, email, password)
 		 VALUES ('".$arr['usuario']."','".$arr['email']."',
 		 '".password_hash($arr['password'],PASSWORD_DEFAULT)."')";
-
 		$this->db->query($sql);
-
 		return $this->db->lastInsertId();
 	}
 	public function logeo($arr){
@@ -39,7 +37,6 @@ class Usuario {
 			$_SESSION['usuario']=$usuario['usuario'];
 			$_SESSION['email']=$usuario['email'];
 			$_SESSION['id']=$usuario['id'];
-			print_r($_SESSION);
 			header('location:registropoo/bienvenidos.php');
 			exit();
 		}else{

@@ -1,16 +1,11 @@
 <?php
 session_start();
-
 require 'clsValidacion.php';
 require 'clsUsuario.php';
-
 if($_SESSION) {
-
 	// print_r($_SESSION);
-
 }else{
-	header('location: login.php');
-
+	header('location:../loginpoo.php');
 }
 ?>
 <html>
@@ -18,7 +13,6 @@ if($_SESSION) {
 </head>
 <body>
 Te has logeado
-
 <a href="salir.php">Cerrar Session</a>
 </body>
 </html>

@@ -1,7 +1,7 @@
-<?php
-require 'clsValidacion.php';
-require 'clsUsuario.php';
 
+<?php
+require 'registroPOO/clsValidacion.php';
+require 'registroPOO/clsUsuario2.php';
 if($_POST) {
 
 	$validar = new Validacion();
@@ -62,5 +62,7 @@ foreach($errores as $e) {
 <input type="submit" name="enviar" value="enviar">
 
 </form>
+
+
 </body>
 </html>
