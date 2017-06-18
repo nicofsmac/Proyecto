@@ -37,7 +37,8 @@ class Usuario {
 			$_SESSION['usuario']=$usuario['usuario'];
 			$_SESSION['email']=$usuario['email'];
 			$_SESSION['id']=$usuario['id'];
-			header('location:registropoo/bienvenidos.php');
+			header('location:./index-logeado.php');
+      // header('location:registropoo/bienvenidos.php');
 			exit();
 		}else{
 			echo "<-    Error. usuario o password incorrectas";

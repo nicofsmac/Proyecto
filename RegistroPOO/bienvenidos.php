@@ -5,7 +5,7 @@ require 'clsUsuario.php';
 if($_SESSION) {
 	// print_r($_SESSION);
 }else{
-	header('location:../loginpoo.php');
+	header('location:../loginpoo-2.php');
 }
 ?>
 <html>
