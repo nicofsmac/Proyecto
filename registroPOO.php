@@ -56,6 +56,8 @@ if($_POST) {
 
 		$idusuario = $usuario->registrarUsuario($_POST);
 
+    // header('location:/loginpoo-2.php');
+
 		echo "el id unico es " . $idusuario;
 
 		die('. Ya lo hemos registrado');
