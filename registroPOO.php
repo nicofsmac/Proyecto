@@ -92,8 +92,32 @@ foreach($errores as $e) {
 </form>
 </div> -->
 
+
+<script>
+function validateform(){
+  var name=document.miformulario.usuario.value;
+// var password=document.myform.password.value;
+console.log(name);
+console.log("asd");
+errores=0;
+if (name==null || name==""){
+  alert("Usuario can't be blank");
+  errores++;
+}else if(name.length<6){
+  alert("Usuario must be at least 6 characters long.");
+  errores++;
+}
+if(errores===0){
+  document.miformulario.submit();
+}
+
+}
+</script>
+
+
+
 <!-- Formulario de bootstrap  -->
-<form class="form-horizontal" method="post">
+<form class="form-horizontal" method="post" name="miformulario">
 	<div class="form-group">
 		<label for="inputEmail3" class="col-sm-2 control-label">Email:</label>
 		<div class="col-sm-10">
@@ -123,10 +147,13 @@ foreach($errores as $e) {
   </div> -->
   <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
-      <button type="submit" class="btn btn-default" name="enviar" value="enviar">Registraté</button>
+      <button type="button" class="btn btn-default" name="enviar" value="enviar" onclick="validateform()">Registraté</button>
     </div>
   </div>
 </form>
+
+
+
 
 <?php
 include "footer.php"

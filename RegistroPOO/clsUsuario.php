@@ -12,6 +12,13 @@ class Usuario {
 		$this->db->query($sql);
 		return $this->db->fetchColumn();
 	}
+
+	public function ultimoUsuario()
+	{
+$ultimo = "SELECT max(id) FROM usuarios";
+	}
+
+
 	public function registrarUsuario($arr) {
 		$sql = "INSERT INTO usuarios (usuario, email, password)
 		 VALUES ('".$arr['usuario']."','".$arr['email']."',

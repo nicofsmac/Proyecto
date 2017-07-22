@@ -1,6 +1,4 @@
 
-
-
 <!DOCTYPE html>
 <html>
 
@@ -20,15 +18,34 @@ include "head.php";
     <?php
     include "header.php";
     ?>
+<div class="row" >
+    <div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12" ><h3 id="lastUsers"> </h3><br>
 
 
+      <!-- <button type="button" onclick="cambiarColor1()">Cambiar Color!</button><br>
+      <br>
+<button type="button" onclick="cambiarColor2()">Cambiar a Color loco!</button><br>
+<br>
+<button type="button" onclick="cambiarColor3()">Cambiar a Color sobrio!</button><br>
+<br> -->
 
+<div class="btn-group btn-group-justified" role="group" aria-label="...">
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-default" onclick="cambiarColor1()">Cambiar Color!</button>
+  </div>
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-default" onclick="cambiarColor2()">Color loco!</button>
+  </div>
+  <div class="btn-group" role="group" >
+    <button type="button" class="btn btn-default" onclick="cambiarColor3()">Color sobrio!</button>
 
+  </div>
+</div>
+<br>
+<br>
 
-
-
-
-
+    </div>
+      </div>
 
 
 
@@ -70,6 +87,8 @@ include "head.php";
 
           </div>
         </div>
+
+
 
 
     <div class="row">
@@ -130,6 +149,41 @@ include "head.php";
 include "footer.php"
 
 ?>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    var auto_refresh = setInterval(
+    function ()
+    {
+      $.ajax(
+        {
+       url: "lastUsers.php",
+       success: function(result){
+        $("#lastUsers").html(result);
+    }});
+
+       //$('.View').load('Small.php?' + Math.random()).fadeIn("slow");
+    }, 1000); // refresh every 15000 milliseconds
+});
+
+
+
+</script>
+
+<script>
+function cambiarColor1() {
+    document.getElementById("lastUsers").style.color = "#ff0000";
+    }
+    function cambiarColor2() {
+        document.getElementById("lastUsers").style.color = "magenta";
+        }
+        function cambiarColor3() {
+            document.getElementById("lastUsers").style.color = "black";
+            }
+
+
+</script>
+
 
 </body>
 </html>
