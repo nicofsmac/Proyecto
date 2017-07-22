@@ -2,8 +2,8 @@
 
 class Validacion {
 
-	public $minNumbers = 3;
-	public $minUser = 6;
+	public $minNumbers = -1;
+	public $minUser = 5;
 	public $minPass = 8;
 
 	public function validarEmail($e) {

@@ -21,6 +21,7 @@ $rows = $query->fetchAll(PDO::FETCH_ASSOC);
 // var_dump($rows[0]);
 
 $ultimo2 = array_search(max($rows),$rows);
+$ultimo2 = $ultimo2 + 1;
 print_r("Ya tenemos registrados ");
 print_r($ultimo2);
 print_r(" fanaticos del fútbol!");
